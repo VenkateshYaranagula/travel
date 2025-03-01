@@ -1,0 +1,34 @@
+.cost-section {
+background-image: url('D:\interview\travel-clone\travel-clone\public/lion.png');
+background-size: cover;   
+  }
+  .section{
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .cost-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .cost-inputs label, .cost-inputs input, .cost-inputs button {
+    margin: 10px;
+  }
+  
+  .total-cost {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .cost-trigger {
+    text-align: center;
+
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  

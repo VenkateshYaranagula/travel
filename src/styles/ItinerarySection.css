@@ -1,0 +1,44 @@
+
+.itinerary-section {
+    background-image: url('D:\interview\travel-clone\travel-clone\public/image7.png');
+    padding: 50px 20px;
+    background-size: cover;
+  }
+  .section{
+        max-width: 900px;
+    margin: 0 auto;
+  }
+  .itinerary-day {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .day-header {
+    background-color:azure;
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .day-content {
+    padding: 20px;
+    color:aquamarine;
+  }
+  
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+justify-content: space-between;  }
+  
+  .image-gallery img {
+    width: 200px;
+    height: auto;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  

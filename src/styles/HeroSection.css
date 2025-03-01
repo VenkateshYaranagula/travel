@@ -1,0 +1,48 @@
+.hero-section {
+    background-image: url('D:\interview\travel-clone\travel-clone\public/background.png'); /* Adjust path as needed */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .explore-trigger {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-trigger:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .explore-details {
+    margin-top: 20px;
+  }
+  
+  .view-itinerary, .map-trigger {
+    margin: 10px;
+  }
+  
