@@ -16,7 +16,6 @@ function CostSection() {
 
   return (
     <div className="cost-section">
-        <div className='section'>
       <h2>Trip Costs</h2>
       <div className="cost-inputs">
         <label>Adults:</label>
@@ -28,12 +27,11 @@ function CostSection() {
         <button onClick={calculateCost}>Calculate Total</button>
       </div>
       <p className="total-cost">Total: ${totalCost}</p>
-    </div>
     <div className="cost-trigger">
         <p>Interested? Let's personalize your trip!</p>
         <button>Contact Us for a Custom Quote</button>
       </div>
-    </div>
+      </div>
 
   );
 }
